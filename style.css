@@ -1,9 +1,24 @@
 p {
     color: blue;
 }
+p.a {
+    color: blue; text-align: center;
+}
 h1 {
 color: red;
 }
+h1.a {
+    color: red; text-align: center;
+    }
 h2 {
-color: tomato;
+color: red;
+}
+body {
+    background-color:rgb(173, 173, 165);
+}
+li {
+    color: navy;
+}
+div {
+    background-color: chartreuse; border: dashed; padding: 30px;
 }
