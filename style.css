@@ -1,9 +1,6 @@
 p {
     color: blue;
 }
-p.a {
-    color: blue; text-align: center;
-}
 h1 {
 color: red;
 }
@@ -23,6 +20,30 @@ ul {
 li {
     color: navy;
 }
-div {
-    background-color: chartreuse; border: dashed; padding: 30px;
+.a {
+    background-color: 
+    chartreuse;
+    height: 400px;
+    width: 100%; 
+    border: none; 
+    padding: 30px;
 }
+.a {
+    background-color: 
+    chartreuse;
+    border: none; 
+    padding: 30px;
+}
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover, a:active {
+    background-color: green;
+    color: white;
+  }
