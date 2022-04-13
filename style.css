@@ -8,14 +8,18 @@ h1 {
 color: red;
 }
 h1.a {
-    color: red; text-align: center;
+    color: red; text-align: center; text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 5px darkblue;
     }
 h2 {
-color: red;
+color: red; text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 body {
+    font-family: "Bai Jamjuree";
     background-color:rgb(173, 173, 165);
 }
+ul {
+    list-style: square inside;
+  }
 li {
     color: navy;
 }
