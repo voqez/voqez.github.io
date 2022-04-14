@@ -4,8 +4,12 @@ p {
 h1 {
 color: red;
 }
-h1.a {
-    color: red; text-align: center; text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 5px darkblue;
+h1 {
+    color: red; 
+    text-align: center; 
+    padding: 200px 25px 200px 25px; 
+    text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 40px;
     }
 h2 {
 color: red; text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 5px darkblue;
@@ -21,23 +25,22 @@ li {
     color: navy;
 }
 .a {
-    background-color: 
-    chartreuse;
-    height: 400px;
+    background-image: url("148348.png");
+    background-repeat:;
+    height: 500px;
     width: 100%; 
     border: none; 
-    padding: 30px;
 }
-.a {
-    background-color: 
-    chartreuse;
-    border: none; 
-    padding: 30px;
-}
+.b {
+    max-width: 800px;
+    margin: auto;
+    border: 3px solid none;
+  }
 a:link, a:visited {
     background-color: white;
     color: black;
     border: 2px solid green;
+    border-radius: 15px;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
