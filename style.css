@@ -6,12 +6,18 @@ p {
   text-align: center; 
   }
 .p2 {
-  text-align:left; 
-    text-indent: 10pt;
-    text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-align:center; 
+    text-indent: 0pt;
+    text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 15px black;
     font-size: 80px;
 }
-
+.p3 {
+  color: black;
+  text-align:center; 
+    text-indent: 0pt;
+    text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 30px;
+}
 h1 {
     color: red; 
     text-align:center; 
@@ -79,7 +85,7 @@ li {
   }
 
 .icon-bar {
-  width: 90px;
+  width: 60px;
   background-color: #555;
 }
 
