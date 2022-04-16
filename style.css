@@ -4,7 +4,6 @@ p {
 .p1 {
   color: blue; 
   text-align: center; 
- 
   }
 .p2 {
   text-align:left; 
@@ -12,9 +11,7 @@ p {
     text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 5px darkblue;
     font-size: 80px;
 }
-h1 {
-color: red;
-}
+
 h1 {
     color: red; 
     text-align:center; 
