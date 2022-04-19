@@ -16,8 +16,13 @@ p {
   text-align:center; 
     text-indent: 0pt;
     text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 5px darkblue;
-    font-size: 30px;
+    font-size: 20px;
 }
+.p4 {
+  color: blue; 
+  text-align: left; 
+  padding: 0px 0px 0px 150px;
+  }
 h1 {
     color: red; 
     text-align:center; 
@@ -106,7 +111,7 @@ img {
   background-color: #04AA6D;
 }
 hr {
-  width: 50%;
+  width: 20%;
 }
 * {
   box-sizing: border-box;
@@ -127,7 +132,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: black;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -135,13 +140,13 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: red;
 }
 
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color:none;
   padding: 10px;
 }
 
