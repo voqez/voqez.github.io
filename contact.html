@@ -16,41 +16,48 @@
 <body>
 
 
+  <div class="container">
+    <div style="text-align:center">
+      <h2>Contact Details</h2>
+      <p>Feel Free To Leave A Message:</p>
+    </div>
     <div class="row">
-        <div class="column left">
-            <div class="icon-bar">
-                <a class="active" href="#"><i class="fa fa-twitter"></i></a> 
-                <a href="#"><i class="fa fa-linkedin-square"></i></a> 
-                <a href="#"><i class="fa fa-envelope"></i></a> 
-                <a href="#"><i class="fa fa-globe"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a> 
-              </div>
+      <div class="column">
+        <div class="icon-bar">
+          <a class="active" href="#"><i class="fa fa-twitter"></i></a> 
+          <a href="#"><i class="fa fa-linkedin-square"></i></a> 
+          <a href="#"><i class="fa fa-envelope"></i></a> 
+          <a href="#"><i class="fa fa-globe"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a> 
         </div>
-
-        <div class="column middle">
-            <form action="/action_page.php">
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" placeholder="Your name.."><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" placeholder="Your Last name.."><br>
-                <label for="country">Country</label><br>
-        <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select><br>
-        <label for="subject">Subject</label><br>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea><br>
-                <input type="submit" value="Submit">
-              </form>  
-        </div>
-
-        <div class="column right">
-            <img class="a" src="location.png"> 
-        </div>
+        <img class="a" src="location.png" style="width:35%">
       </div>
-
-
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country/Region</label>
+          <select id="country" name="country">
+            <option value="Kenya">Kenya</option>
+            <option value="Africa">Africa</option>
+            <option value="Asia">Asia</option>
+            <option value="canada">Canada</option>
+            <option value="Europe">Europe</option>
+            <option value="Middle East">Middle East</option>
+            <option value="Russia">Russia</option>
+            <option value="South America">South America</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+  
     
        
         

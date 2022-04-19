@@ -84,15 +84,6 @@ img {
     z-index: 1;
   }
 
-  img.a {
-    position: absolute;
-    height: 300px;
-    width: 450px;
-    right: 30px;
-    top: 150px;
-    z-index: 1;
-  } 
-
 .icon-bar {
   width: 60px;
   background-color: #555;
@@ -125,19 +116,41 @@ hr {
   box-sizing: border-box;
 }
 
-/* Create three unequal columns that floats next to each other */
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
 .column {
   float: left;
-  padding: 80px 0px 0px 5px;
-}
-
-.left, .right {
-  width: 20%;
-}
-
-.middle {
-  width: 40%;
-  padding: 80px 0px 0px 25px;
+  width: 50%;
+  margin-top: 6px;
+  padding: 10px;
 }
 
 /* Clear floats after the columns */
@@ -146,3 +159,21 @@ hr {
   display: table;
   clear: both;
 }
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+img.a {
+  position: absolute;
+  height: 250px;
+  width: 150px;
+  left: 150px;
+  top: 200px;
+  z-index: 1;
+} 
