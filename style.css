@@ -22,6 +22,7 @@ p {
   color: blue; 
   text-align: left; 
   padding: 0px 0px 0px 150px;
+  font-size: 20px;
   }
 h1 {
     color: red; 
@@ -80,6 +81,14 @@ li {
     margin: auto;
     border: 3px solid none;
   }
+.c {
+  position: absolute;
+    height: 300px;
+    width: 450px;
+    left: 100px;
+    top: 200px;
+    z-index: 1;
+}
 img {
     position: absolute;
     height: 600px;
@@ -182,3 +191,53 @@ img.a {
   top: 200px;
   z-index: 1;
 } 
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: black; 
+  color: white; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: red;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column1 {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left1 {
+  width: 40%;
+}
+
+.right1 {
+  width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
