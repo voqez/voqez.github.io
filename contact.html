@@ -40,29 +40,35 @@
       <div class="column">
         <form action="/action_page.php">
           <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <input type="text" id="fname" name="firstname" onchange="upperCase()" placeholder="Your name..">
           <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <input type="text" id="lname" name="lastname" onchange="upperCase()" placeholder="Your last name..">
           <label for="country">Country/Region</label>
           <select id="country" name="country">
             <option value="Kenya">Kenya</option>
             <option value="Africa">Africa</option>
             <option value="Asia">Asia</option>
-            <option value="canada">Canada</option>
+            <option value="Canada">Canada</option>
             <option value="Europe">Europe</option>
             <option value="Middle East">Middle East</option>
             <option value="Russia">Russia</option>
             <option value="South America">South America</option>
-            <option value="usa">USA</option>
+            <option value="USA">USA</option>
           </select>
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
           <button class="button button1" type="submit"><i class="fa fa-paper-plane"></i>&nbsp;&nbsp;&nbsp;&nbsp;SUBMIT</button>
         </form>
+    
       </div>
-    </div>
-  </div>
-  
+    <script>
+        function upperCase() {
+          const x = document.getElementById("fname");
+          x.value = x.value.toUpperCase();
+          const y = document.getElementById("lname");
+          y.value = y.value.toUpperCase();
+        }
+    </script>
     
        
         
