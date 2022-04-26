@@ -74,7 +74,7 @@ text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 5px darkblue;
 body {
     margin: 0;
     font-family: "Bai Jamjuree";
-    background-image: url("148348.png");
+    background-image: url("148348.jpg");
 }
 ul {
     list-style: square inside;
@@ -99,20 +99,24 @@ li {
     height: 300px;
     width: 450px;
     left: 100px;
-    top: 200px;
+    top: 1455px;
     z-index: 1;
 }
 img {
     position: absolute;
-    height: 600px;
-    width: 450px;
+    height: 529x;
+    width: 400px;
     right: 30px;
     top: 0px;
     z-index: 1;
   }
 
 .icon-bar {
+  position: absolute;
+  top: 150px;
+  left: 15px;
   width: 60px;
+  float: left;
   background-color: #555;
 }
 
@@ -240,7 +244,7 @@ img.a {
 .column1 {
   float: left;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 700px; /* Should be removed. Only for demonstration */
 }
 
 .left1 {
@@ -256,4 +260,11 @@ img.a {
   content: "";
   display: table;
   clear: both;
+}
+
+.maindiv
+{
+  margin: 20px;
+  box-sizing: border-box;
+  height: 500px;
 }
