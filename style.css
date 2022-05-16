@@ -74,7 +74,7 @@ text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 5px darkblue;
 body {
     margin: 0;
     font-family: "Bai Jamjuree";
-    background-image: url("148348.jpg");
+    background-image: url("images/148348.jpg");
 }
 ul {
     list-style: square inside;
@@ -83,7 +83,7 @@ li {
     color: navy;
 }
 .a {
-    background-image: url("148348.png");
+    background-image: url("images/148348.png");
     background-repeat:none;
     height: 500px;
     width: 100%; 
